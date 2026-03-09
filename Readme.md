@@ -4,7 +4,7 @@ A simple, focused todo app for managing today's tasks only.
 
 ---
 
-## 🎯 What It Does
+##  What It Does
 
 - Add tasks for today
 - Mark them complete (turns green)
@@ -14,7 +14,7 @@ A simple, focused todo app for managing today's tasks only.
 
 ---
 
-## 🏗️ Overall Approach
+## Overall Approach
 
 **Simple idea:** Build an app that only shows today's tasks. No backlogs, no old stuff - just what needs to get done today.
 
@@ -22,7 +22,7 @@ A simple, focused todo app for managing today's tasks only.
 
 ---
 
-## 🎨 Key Design Choices
+##  Key Design Choices
 
 | Choice | Reason | Alternative |
 |--------|--------|-------------|
@@ -34,7 +34,7 @@ A simple, focused todo app for managing today's tasks only.
 
 ---
 
-## 🚀 Improvements With More Time
+##  Improvements With More Time
 
 ### High Impact (Worth Doing)
 - **Undo button** - Recover deleted tasks
@@ -57,7 +57,7 @@ A simple, focused todo app for managing today's tasks only.
 
 ---
 
-## 💻 How It Works
+##  How It Works
 
 ### Architecture
 ```
@@ -78,7 +78,7 @@ Core Data (Persistence)
 
 ---
 
-## 📱 Features
+##  Features
 
 ✅ Add tasks with title + description
 ✅ Set reminder times
@@ -93,7 +93,7 @@ Core Data (Persistence)
 
 ---
 
-## 🧪 What Works Well
+##  What Works Well
 
 - Clean MVVM architecture
 - Instant visual feedback on completion
@@ -103,7 +103,7 @@ Core Data (Persistence)
 
 ---
 
-## 😅 Tradeoffs Made
+##  Tradeoffs Made
 
 - No history of past tasks (keeps it simple)
 - Only one device (no cloud sync)
@@ -112,7 +112,7 @@ Core Data (Persistence)
 
 ---
 
-## 🔧 Testing
+##  Testing
 
 Current: 60% code coverage
 - Unit tests for main logic
@@ -125,7 +125,7 @@ Future: Could add
 
 ---
 
-## 📈 Performance
+##  Performance
 
 Works smoothly with:
 - 100+ tasks per day
@@ -135,7 +135,7 @@ Works smoothly with:
 
 ---
 
-## 🎓 What We Learned
+##  What We Learned
 
 ✅ **Good:** MVVM pattern keeps code clean
 ✅ **Good:** Local-first means no server complexity
@@ -145,7 +145,7 @@ Works smoothly with:
 
 ---
 
-## 🚀 Next Steps If Extending
+##  Next Steps If Extending
 
 1. Add undo/redo
 2. Implement swipe gestures
@@ -157,7 +157,7 @@ Each is ~2-6 hours of work.
 
 ---
 
-## 📋 Setup
+##  Setup
 
 1. Copy `TaskRowView_Final.swift` → `Views/TaskRowView.swift`
 2. Copy `ContentView_Final.swift` → `ContentView.swift`
@@ -165,8 +165,14 @@ Each is ~2-6 hours of work.
 
 ---
 
-## ✨ Bottom Line
+##  Bottom Line
 
 Simple, focused app that does one thing well: help you manage today's tasks without distractions.
 
 **Production ready.** Ready to extend. Easy to understand.
+
+**Demo Video**
+
+https://github.com/user-attachments/assets/dc00df97-6e97-4f1b-ac63-41bf4574ea10
+
+
